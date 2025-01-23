@@ -4,7 +4,7 @@ import glob
 import os
 
 # Path to the folder containing the input files
-file_path = "/media/ppeb/4tb_drive/CNV_analysis/"
+file_path = "path_to_CNV_analysis/"
 file_list = glob.glob(os.path.join(file_path, "*.xls"))
 
 # Initialize a list to store individual DataFrames
